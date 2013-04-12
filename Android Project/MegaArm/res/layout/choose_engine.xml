@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/rotation_base"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/menu_bg"
+        android:contentDescription="@string/rotation_base"
+        android:onClick="onChooseEngine"
+        android:src="@drawable/base" />
+
+    <ImageButton
+        android:id="@+id/engine_base"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rotation_base"
+        android:background="@drawable/menu_bg"
+        android:contentDescription="@string/engine_base"
+        android:onClick="onChooseEngine"
+        android:src="@drawable/engine1" />
+
+    <ImageButton
+        android:id="@+id/engine_arm"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/engine_base"
+        android:background="@drawable/menu_bg"
+        android:contentDescription="@string/engine_arm"
+        android:onClick="onChooseEngine"
+        android:src="@drawable/engine2" />
+
+    <ImageButton
+        android:id="@+id/hand"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/engine_arm"
+        android:background="@drawable/menu_bg"
+        android:contentDescription="@string/hand"
+        android:onClick="onChooseEngine"
+        android:src="@drawable/hand" />
+
+</RelativeLayout>

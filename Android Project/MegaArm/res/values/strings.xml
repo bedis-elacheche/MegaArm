@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Mega Arm</string>
+    <string name="seperator">seperator</string>
+    <string name="rotation_base">rotation_base</string>
+    <string name="engine_base">engine_base</string>
+    <string name="engine_arm">engine__arm</string>
+    <string name="hand">hand</string>
+</resources>
